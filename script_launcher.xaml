@@ -1,0 +1,104 @@
+<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Script Launcher" MaxHeight="1020"
+	FontSize="20"
+	SizeToContent="WidthAndHeight">
+	<DockPanel Name="OverallDockPanel">
+	<TextBlock Text="Select scripts to run" TextWrapping="Wrap"
+					Margin="5" TextAlignment="Center" DockPanel.Dock="Top"/>
+	<StackPanel DockPanel.Dock="Bottom" HorizontalAlignment="Center"
+				Orientation="Horizontal">
+		<Button Content="Action Selection" Margin="5" Click="ActionClicked" IsDefault="True"/>
+		<Button Content="Cancel" Margin="5" Click="CancelClicked"/>
+	</StackPanel>
+	<StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal"
+				HorizontalAlignment="Center">
+		<Button Content="Deselect all" Margin="5" Click="DeselectAllClicked"/>
+	</StackPanel>
+	<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxWidth="1700">
+	<DockPanel Name="mainDockPanel">
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+			<Grid DockPanel.Dock="Left" Name="checkboxGrid">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid2">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid3">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid4">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid5">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid6">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid7">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid8">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid9">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+		<ScrollViewer HorizontalScrollBarVisibility="Visible" MaxHeight="750" MaxWidth="1500">
+		  <Grid DockPanel.Dock="Left" Name="checkboxGrid10">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+			</Grid>
+		</ScrollViewer>
+	</DockPanel>
+	</ScrollViewer>
+	</DockPanel>
+</Window>
