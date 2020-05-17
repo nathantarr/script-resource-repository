@@ -1,0 +1,11 @@
+<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="Splash Screen" MaxHeight="1050" Width="400"
+	FontSize="20"
+	SizeToContent="WidthAndHeight">
+	<DockPanel Name="mainDockPanel">
+		<Image Source="https://raw.githubusercontent.com/nathantarr/script-resource-repository/master/SplashScreen.jpg"
+        />
+	</DockPanel>
+</Window>
