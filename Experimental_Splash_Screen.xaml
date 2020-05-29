@@ -5,7 +5,6 @@
 	FontSize="20"
 	SizeToContent="WidthAndHeight">
 	<DockPanel Name="mainDockPanel">
-		<Image Source="https://raw.githubusercontent.com/nathantarr/script-resource-repository/master/SplashScreen.jpg"
-        />
+		<Image Source="https://raw.githubusercontent.com/nathantarr/script-resource-repository/master/SplashScreen.jpg" />
 	</DockPanel>
 </Window>
